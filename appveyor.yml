@@ -1,6 +1,6 @@
 # Environments to run in...
 image:
-  - macos
+#   - macos
   - Visual Studio
   - Ubuntu
 
@@ -8,14 +8,15 @@ image:
 environment:
   matrix:
   # node.js
-  - nodejs_version: "16"
+  - nodejs_version: "16.13.2"
 
 # Install scripts. (runs after repo cloning)
 install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
   # install modules
-  - npm install
+  # - npm install
+  - sh: nvm install $nodejs_version
 
 # Post-install test scripts.
 test_script:
