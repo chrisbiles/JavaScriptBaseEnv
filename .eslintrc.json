@@ -15,6 +15,7 @@
 	  "mocha": true
 	},
 	"rules": {
-		"no-console": 1
+		"no-console": 1,
+		"no-multiple-empty-lines": [2, {"max": 1, "maxEOF": 0}]
 	}
   }
