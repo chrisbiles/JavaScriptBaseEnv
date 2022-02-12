@@ -1,3 +1,9 @@
+# Environments to run in...
+image:
+  - macos
+  - Visual Studio
+  - Ubuntu
+
 # Test against this version of Node.js
 environment:
   matrix:
