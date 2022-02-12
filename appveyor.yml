@@ -16,8 +16,8 @@ install:
   # - ps: Install-Product node $env:nodejs_version
   # install modules
   # - npm install
-  nvm install $env:nodejs_version
-  nvm use $env:nodejs_version
+  nvm install 16.13.2
+  nvm use 16.13.2
 
 # Post-install test scripts.
 test_script:
