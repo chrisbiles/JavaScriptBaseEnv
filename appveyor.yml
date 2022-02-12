@@ -1,14 +1,8 @@
-# Environments to run in...
-# image:
-#   - macos
-#   - Visual Studio
-#   - Ubuntu
-
 # Test against this version of Node.js
 environment:
   matrix:
   # node.js
-  - nodejs_version: "16.13.2"
+  - nodejs_version: "16"
 
 # Install scripts. (runs after repo cloning)
 install:
