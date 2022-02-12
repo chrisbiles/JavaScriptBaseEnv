@@ -1,8 +1,8 @@
 # Environments to run in...
 image:
-  - macos
-  - Visual Studio
-  - Ubuntu
+  - Previous macOs
+  - Previous Visual Studio 2022
+  - Previous Ubuntu
 
 # Test against this version of Node.js
 environment:
