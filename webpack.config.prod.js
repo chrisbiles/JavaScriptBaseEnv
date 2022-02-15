@@ -22,7 +22,8 @@ export default {
 	plugins: [
 		// Create HTML file that includes reference to bundled JS.
 		new HtmlWebpackPlugin({
-			template: "src/index.html"
+			template: "src/index.html",
+			trackJSToken: "c8f145fba97444afb1afac3d106b1f80"
 		}),
 		// Generate an external css file with a hash in the filename.
 		new MiniCssExtractPlugin({
